@@ -8,8 +8,8 @@ function Connection() {
       connectionLimit: 10,
       host: 'localhost',
       user: 'root',
-      password: '',
-      database: 'todo_sequelize'
+      password: 'password',
+      database: 'node_todo'
     });
   };
 
